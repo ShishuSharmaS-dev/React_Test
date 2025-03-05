@@ -7,7 +7,7 @@ const ProductList = () => {
     <div>
       {products.map(p=>(
         <div key={p.id}>
-            <p>id: {p.id}</p>
+            <p>id: {p.Name}</p>
             <p>Name: {p.Name}</p>
             <p>Price: {p.Price}</p>
         </div>
